@@ -32,6 +32,7 @@ public class AopTest {
         Object obj=null;
         HttpServletRequest request = ((ServletRequestAttributes)RequestContextHolder.getRequestAttributes()).getRequest();
         HttpSession session=request.getSession();
+
         Object target = proceeding.getTarget();
         String method = proceeding.getSignature().getName();//切入方法名
         Class<?> classz = target.getClass();//切入的类class文件
