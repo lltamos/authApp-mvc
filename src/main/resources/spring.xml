@@ -14,7 +14,7 @@
     <context:component-scan base-package="org.xxz"/>
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
-    <mvc:resources location="/resources/" mapping="/resources/**"/>
+    <mvc:resources location="/img/" mapping="/img/**"/>
     <!-- 激活自动代理功能 -->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
 

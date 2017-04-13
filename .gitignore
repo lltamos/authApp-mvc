@@ -25,5 +25,5 @@ hs_err_pid*
 
 .gitignore
 .idea/workspace.xml
-src/main/webapp/resources/
+src/main/webapp/img/
 target/
