@@ -1,8 +1,6 @@
-package org.xxz.Interceptor;
+package org.xxz.interceptor;
 
 import org.apache.commons.lang3.StringUtils;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 import org.xxz.anotation.RoleControl;
