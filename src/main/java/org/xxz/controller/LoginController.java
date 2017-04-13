@@ -26,7 +26,7 @@ public class LoginController {
     @RequestMapping("login")
     @ResponseBody
     public List<String> login() {
-        List<String> list = new ArrayList<>();
+        List<String> list = new ArrayList<String>();
         list.add("1");
         System.out.println("login");
         return list;
